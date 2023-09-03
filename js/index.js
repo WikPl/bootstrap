@@ -5,4 +5,4 @@ const number = 123
 const name = "Wiktor"
 const age = 27
 
-console.log("Cześć, jestem ", name, " i mam ", age, " lat.")
+console.log(`Cześć, jestem ${name} i mam ${age} lat.`)
