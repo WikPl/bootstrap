@@ -1,4 +1,4 @@
-const fav-color = 'red'
-conts meal = 'schabowy'
-const 1favDRINK = 'pepsi'
+const fav_color = 'red'
+const meal = 'schabowy'
+const favDRINK = 'pepsi'
 const function = 123
