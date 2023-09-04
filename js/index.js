@@ -14,7 +14,13 @@ if (x < z) {
 	console.log('not ok')
 }
 
-if (x <= y) {
+if (y >= z) {
+	console.log('ok')
+} else {
+	console.log('not ok')
+}
+
+if (x !== y) {
 	console.log('ok')
 } else {
 	console.log('not ok')
