@@ -18,11 +18,11 @@ console.log(num1)
 
 // Następnie za pomocą operatorów przypisania (zapis skrócony), wypisz w konsoli wynik mnożenia oraz dzielenia "X" przez "Y".
 
-const x = 5
-const y = 10
+let x = 5
+let y = 10
 
-console.log(x/y)
-console.log(x*y)
+console.log(x *= y)
+console.log(x /= y)
 
 
 
