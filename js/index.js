@@ -1,13 +1,19 @@
-// string - 'Wiktor'
-const name = 'Wiktor'
+let x = 8
+let y = 4
+x = x + y
 
-// number - 27
-const age = 27
+// x = x + y
+// x += y
 
-// boolean - true/false 
+// x = x - y
+// x -= y
 
-// null & undefined 
-const test = null 
-let test2
-console.log(test);
-console.log(test2); 
+// x = x * y
+// x *= y
+
+// x = x / y
+// x /= y
+
+// x = x / y
+// x /= y
+console.log(x)
