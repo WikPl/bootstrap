@@ -2,7 +2,8 @@
 
 // Skorzystaj z modulo. Zmienną "SCORE" wyloguj w konsoli (powinna zostać wylogowana cyfra 1).
 
-
+const score = 15 % 2
+console.log(score)
 
 
 // 2. Stwórz zmienną "NUM1" i przypisz do niej wartość 8.
