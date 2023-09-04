@@ -18,6 +18,12 @@ console.log(num1)
 
 // Następnie za pomocą operatorów przypisania (zapis skrócony), wypisz w konsoli wynik mnożenia oraz dzielenia "X" przez "Y".
 
+const x = 5
+const y = 10
+
+console.log(x/y)
+console.log(x*y)
+
 
 
 // P.S. Liczę na to, że przy punkcie 3 (i być może 2) pojawią się pewne problemy. Jeśli sobie z nimi poradzicie – genialnie. Jeśli nie – spokojnie, nie ma co się załamywać, ale dajcie z siebie wszystko! 💪
