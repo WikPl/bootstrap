@@ -1,19 +1,9 @@
-let x = 8
-let y = 4
-x = x + y
+const x = 8
+const y = '8'
+const z = 9
 
-// x = x + y
-// x += y
-
-// x = x - y
-// x -= y
-
-// x = x * y
-// x *= y
-
-// x = x / y
-// x /= y
-
-// x = x % y
-// x %= y
-console.log(x)
+if (x == y) {
+	console.log('ok')
+} else {
+	console.log('not ok')
+}
