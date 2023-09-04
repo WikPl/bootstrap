@@ -10,7 +10,9 @@ console.log(score)
 
 // Za pomocą inkrementacji, zwiększ wartość zmiennej "NUM1" do 10. Wynik wyloguj w konsoli.
 
-
+let num1 = 8
+num1 += 2
+console.log(num1)
 
 // 3. Stwórz zmienne "X" oraz "Y". Przypisz do nich liczby 5 oraz 10.
 
