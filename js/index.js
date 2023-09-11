@@ -1,5 +1,5 @@
-const colors = ['red', 'green', 'blue']
-console.log(colors)
+const fruits = ['banan', 'jabłko', 'pomarańcza', 'cytryna']
 
-colors.push('gold')
-console.log(colors)
+for (let i = 0; i < 3; i++) {
+    console.log(i);
+}
