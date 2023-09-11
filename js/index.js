@@ -1,5 +1,7 @@
-const fruits = ['banan', 'jabłko', 'pomarańcza', 'cytryna']
+const fruits = ['banan', 'jabłko', 'pomarańcza', 'cytryna', 'arbuz']
 
-for (let i = 0; i < 4; i++) {
+console.log(fruits);
+
+for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
