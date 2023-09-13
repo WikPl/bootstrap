@@ -5,12 +5,12 @@ for (let i = 0; i < numbers.length; i++){
     console.log(numbers[i]);
 }
 
-console.log('Dodawanie trzech argumentów w funkcji:');
-function addArguments(arg1, arg2, arg3) {
-    console.log(arg1 + arg2 + arg3);
+console.log('Dodawanie i mnożenie trzech argumentów w funkcji:');
+function addMultiplyArguments(arg1, arg2, arg3) {
+    console.log(arg1 + arg2 * arg3);
 }
 
-addArguments(1, 2, 3)
+addMultiplyArguments(1, 2, 3)
 
 console.log('Czy długość tablicy jest większa niż 5?');
 if (numbers.length > 5) {
