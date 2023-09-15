@@ -1,2 +1,2 @@
-const p = document.querySelector('.test')
+const p = document.querySelector('#btn')
 console.log(p)
