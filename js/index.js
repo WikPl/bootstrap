@@ -1,2 +1,2 @@
-const p = document.querySelector('p')
+const p = document.querySelector('.test')
 console.log(p)
