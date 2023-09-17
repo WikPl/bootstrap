@@ -13,3 +13,7 @@ function addN() {
 	console.log(2 + 2)
 }
 addN()
+
+btn1.addEventListener('click', clicked)
+
+btn2.addEventListener('click', addN)
