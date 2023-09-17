@@ -1,10 +1,15 @@
-const p = document.querySelector('#btn')
-console.log(p)
+const btn1 = document.querySelector('#btn1')
+console.log(btn1)
 
-const liItems = document.querySelectorAll('li')
-console.log(liItems[2]);
+const btn2 = document.querySelector('.btn2')
+console.log(btn2)
 
-const pAll = document.querySelectorAll('p')
-for(i = 0; i < pAll.length; i++) {
-console.log(pAll[i]);
+function clicked() {
+	console.log('Kliknięto przycisk 1')
 }
+clicked()
+
+function addN() {
+	console.log(2 + 2)
+}
+addN()
