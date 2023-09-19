@@ -11,3 +11,6 @@ function blueColor(){
 	square.classList.add('blue')
 }
 
+btn1.addEventListener('click', redColor)
+
+btn2.addEventListener('click', blueColor)
