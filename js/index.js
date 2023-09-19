@@ -4,8 +4,8 @@ console.log(btn1)
 const btn2 = document.querySelector('.btn2')
 console.log(btn2);
 
-const color = document.querySelector('.color')
-console.log(color);
+const square = document.querySelector('.color')
+console.log(square);
 
-const remove_color = document.querySelector('.remove-color')
+const removeColorBtn = document.querySelector('.remove-color')
 console.log(remove_color);
