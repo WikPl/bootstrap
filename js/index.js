@@ -14,5 +14,11 @@ function blueColor(){
 }
 
 redBtn.addEventListener('click', redColor)
-
 blueBtn.addEventListener('click', blueColor)
+
+function removeColor(){
+	square.classList.remove('red')
+	square.classList.remove('blue')
+}
+
+removeColorBtn.addEventListener('click', removeColor)
