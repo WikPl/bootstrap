@@ -2,18 +2,10 @@ const btn1 = document.querySelector('#btn1')
 console.log(btn1)
 
 const btn2 = document.querySelector('.btn2')
-console.log(btn2)
+console.log(btn2);
 
-function clicked() {
-	console.log('Kliknięto przycisk 1')
-}
-clicked()
+const color = document.querySelector('.color')
+console.log(color);
 
-function addN() {
-	console.log(2 + 2)
-}
-addN()
-
-btn1.addEventListener('click', clicked)
-
-btn2.addEventListener('click', addN)
+const remove_color = document.querySelector('.remove-color')
+console.log(remove_color);
