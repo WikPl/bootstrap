@@ -1,14 +1,14 @@
-const arrow = document.querySelector('.fa-arrow-down')
+const arrow = document.querySelector('.fas')
 const btnArrow = document.querySelector('.arrow')
 const picHidden = document.querySelector('.item1')
 
 function addDelShow(){
     picHidden.classList.toggle('show')
     if (picHidden.classList.contains('show')){
-        console.log('OK');
+        arrow.style.rotate = '180deg'
     }
     else{
-        console.log('NIE OK');
+        arrow.style.rotate = '360deg'
     }
 }
 
