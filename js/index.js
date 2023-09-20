@@ -8,7 +8,7 @@ function addDelShow(){
         arrow.style.rotate = '180deg'
     }
     else{
-        arrow.style.rotate = '360deg'
+        arrow.style.rotate = '0deg'
     }
 }
 
