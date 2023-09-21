@@ -6,8 +6,20 @@ const p = document.querySelector('p')
 let fontSize = 20
 
 function bigText(){
-    p.style.fontSize = fontSize + 'px'
     fontSize += 5
+    p.style.fontSize = fontSize + 'px'
+}
+
+function smallText(){
+    fontSize -= 5
+    p.style.fontSize = fontSize + 'px'
+}
+
+function colorGold(){
+    p.style.color = 'gold'
 }
 
 sizeUp.addEventListener('click', bigText)
+sizeDown.addEventListener('click', smallText)
+
+color.addEventListener('click', colorGold)
