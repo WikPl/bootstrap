@@ -3,8 +3,11 @@ const sizeDown = document.querySelector('.size-down')
 const color = document.querySelector('.color')
 const p = document.querySelector('p')
 
+let fontSize = 20
+
 function bigText(){
-    p.style.fontSize = '150px'
+    p.style.fontSize = fontSize + 'px'
+    fontSize += 5
 }
 
 sizeUp.addEventListener('click', bigText)
