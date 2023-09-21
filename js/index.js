@@ -1,15 +1,10 @@
-const arrow = document.querySelector('.fas')
-const btnArrow = document.querySelector('.arrow')
-const picHidden = document.querySelector('.item1')
+const sizeUp = document.querySelector('.size-up')
+const sizeDown = document.querySelector('.size-down')
+const color = document.querySelector('.color')
+const p = document.querySelector('p')
 
-function addDelShow(){
-    picHidden.classList.toggle('show')
-    if (picHidden.classList.contains('show')){
-        arrow.style.rotate = '180deg'
-    }
-    else{
-        arrow.style.rotate = '0deg'
-    }
+function bigText(){
+    p.style.fontSize = '150px'
 }
 
-btnArrow.addEventListener('click', addDelShow)
+sizeUp.addEventListener('click', bigText)
