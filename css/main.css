@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 50px;
+  margin: 10px;
   height: 100vh;
   background-color: #333;
   font-size: 26px;
@@ -17,8 +17,4 @@ body {
   width: 200px;
   background-color: lime;
   border: 5px solid white;
-}
-
-.container {
-  height: 100px;
 }/*# sourceMappingURL=main.css.map */
